@@ -36,7 +36,7 @@ github_username:  pjok1122
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Java & Spring 백엔드 개발자로 라인 페이에서 3개의 컴포넌트에 대해 `Ownership`을 가지고 있었으며 설계와 개발 등을 주요 업무로 하고 있습니다. 컴포넌트에 대한 오너십을 가지고 있기 때문에 신규 피쳐나 프로젝트 개발 외에도 `주도적으로` 기술 부채를 제거하거나 운영 리소스를 줄이기 위해 Admin/Batch 등을 개발하는 등의 업무도 진행해왔습니다. 
+  Java & Spring 백엔드 개발자로 라인 페이에서 3개의 컴포넌트에 대해 `Ownership`을 가지고 있으며 설계와 개발을 주요 업무로 하고 있습니다. 컴포넌트에 대한 오너십을 가지고 있기 때문에 신규 피쳐나 프로젝트 개발 외에도 `주도적으로` 기술 부채를 제거하거나 운영 리소스를 줄이기 위해 Admin/Batch 등을 개발하는 등의 업무도 진행해왔습니다. 
   
   `코드리뷰` 에 대해 거부감이 없으며, 더 좋은 코드와 아키텍쳐를 설계하기 위해 팀과 논의하는 것을 좋아합니다.
 
@@ -51,7 +51,7 @@ content:
       - layout: left
         border: weak
         title: ad-delivery
-        caption: 2022.04.11 ~ 
+        caption: 2022.04 ~ 
         link: github.com/pjok1122/resume/tree/master/project/2022/04.마케팅플랫폼_AD-delivery.md
         link_text: 상세 보기
         quote: >
@@ -60,6 +60,7 @@ content:
           - 컴포넌트 아키텍쳐 설계
           - 마케팅 상품 및 점포 정보 동기화 기능 설계 및 개발
           - 마케팅 상품 조회 API 개발
+          - 성능 테스트
 
       - layout: left
         border: weak
@@ -103,7 +104,7 @@ content:
         link: github.com/pjok1122/resume/tree/master/project/2021/04.대만_앱포스_출시.md
         link_text: 상세 보기
         quote: >
-          LinePay Good Partner 거래/정산 내역 관리 기능 개발
+          일 주문 80만. LinePay Good Partner 앱. 거래/정산 내역 관리 기능 개발
         description: |
           - 거래/정산내역 관리 기능 개발
           - 거래내역 조회 성능 최적화
