@@ -51,7 +51,7 @@ content:
       - layout: left
         border: weak
         title: ad-delivery
-        caption: 2022.04.11 ~ 2022.08.31
+        caption: 2022.04.11 ~ 
         link: github.com/pjok1122/resume/tree/master/project/2022/04.마케팅플랫폼_AD-delivery.md
         link_text: 상세 보기
         quote: >
@@ -64,7 +64,7 @@ content:
       - layout: left
         border: weak
         title: mkt platform(LPGP)
-        caption: 2022.04.11 ~ 2022.08.31
+        caption: 2022.04 ~ 
         link: github.com/pjok1122/resume/tree/master/project/2022/03.마케팅플랫폼_LPGP.md
         link_text: 상세 보기
         quote: >
@@ -75,12 +75,11 @@ content:
       - layout: left
         border: weak
         title: merchant-map
-        caption: 2020.12.01 ~ 2022.07.27
-        link: 
-        link_text: 상세 보기 (수정필요)
+        caption: 2020.12 ~ 2022.08
         quote: >
           Merchant map 컴포넌트 개발 & 운영
         description: |
+          - [머천트맵 대만 이관](https://github.com/pjok1122/resume/tree/master/project/2022/05.머천트맵_대만이관.md)
           - [핫플레이스 및 담당자 추천 배지 기능 설계 및 개발](https://github.com/pjok1122/resume/tree/master/project/2022/01.머천트맵_목록개편.md)
           - [점포 이벤트 기능 설계 및 개발](https://github.com/pjok1122/resume/tree/master/project/머천트맵_상세페이지개편.md)
           - [키워드 필터링 프로젝트 매니징](https://github.com/pjok1122/resume/tree/master/project/2021/11.머천트맵_키워드필터링.md)
@@ -89,7 +88,7 @@ content:
       - layout: left
         border: weak
         title: IDC migration
-        caption: 2021.03.21 ~ 2021.06.10
+        caption: 2021.07 ~ 2021.09
         link: github.com/pjok1122/resume/tree/master/project/2021/07.IDC_마이그레이션.md
         link_text: 상세 보기
         quote: >
@@ -100,7 +99,7 @@ content:
       - layout: left
         border: weak
         title: LinePay Good Parnter
-        caption: 2021.03.21 ~ 2021.06.10
+        caption: 2021.03 ~ 2021.06
         link: github.com/pjok1122/resume/tree/master/project/2021/04.대만_앱포스_출시.md
         link_text: 상세 보기
         quote: >
