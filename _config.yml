@@ -6,38 +6,22 @@ repository: Git repository where your resume will be hosted, only required if yo
 version: 2
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
-# email_title: Email (Email title override)
-phone: Your phone number (optional)
-# phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
-# website_title: Web (Website title override)
+name: 박영재
+title: Java & Spring 백엔드 엔지니어
+email: pjok1122@gmail.com
+website: https://blog.naver.com/pjok1122
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
+github_username:  pjok1122
 
 # Additional icon links
-additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
+# additional_links:
+# - title: Link name
+#   icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -50,66 +34,119 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+  Java & Spring 백엔드 개발자로 라인 페이에서 3개의 컴포넌트에 대해 `Ownership`을 가지고 있었으며 설계와 개발 등을 주요 업무로 하고 있습니다. 컴포넌트에 대한 오너십을 가지고 있기 때문에 신규 피쳐나 프로젝트 개발 외에도 `주도적으로` 기술 부채를 제거하거나 운영 리소스를 줄이기 위해 Admin/Batch 등을 개발하는 등의 업무도 진행해왔습니다. 
+  
+  `코드리뷰` 에 대해 거부감이 없으며, 더 좋은 코드와 아키텍쳐를 설계하기 위해 팀과 논의하는 것을 좋아합니다.
 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  `가독성`과 `퍼포먼스` 모두 중요하게 생각하며, 기획과 요건에 따라 이 둘 사이의 trade off를 고려하여 설계하는 것을 즐깁니다.
+
+  `테스트코드`와 Sanity test를 매우 중요하게 여기며, 사내 코드에 대해서는 Conditional coverage `80%` 이상을 유지해왔고, sonarqube 정적분석을 통해 code smell을 제거해왔습니다.
 
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        border: weak
+        title: ad-delivery
+        caption: 2022.04.11 ~ 2022.08.31
+        link: github.com/pjok1122/resume/tree/master/project/2022/04.마케팅플랫폼_AD-delivery.md
+        link_text: 상세 보기
         quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+          ad-delivery 서비스 설계 및 개발
+        description: | 
+          - 컴포넌트 아키텍쳐 설계
+          - 마케팅 상품 및 점포 정보 동기화 기능 설계 및 개발
+          - 마케팅 상품 조회 API 개발
+
+      - layout: left
+        border: weak
+        title: mkt platform(LPGP)
+        caption: 2022.04.11 ~ 2022.08.31
+        link: github.com/pjok1122/resume/tree/master/project/2022/03.마케팅플랫폼_LPGP.md
+        link_text: 상세 보기
+        quote: >
+          Line Pay Good Partner 앱에 마케팅 상품 판매 기능 추가
+        description: |
+          - LinePay Good Partner 앱을 통해 마케팅 상품을 구매할 수 있도록 Proxy 기능 개발 
+
+      - layout: left
+        border: weak
+        title: merchant-map
+        caption: 2020.12.01 ~ 2022.07.27
+        link: 
+        link_text: 상세 보기 (수정필요)
+        quote: >
+          Merchant map 컴포넌트 개발 & 운영
+        description: |
+          - 핫플레이스 및 담당자 추천 배지 기능 설계 및 개발
+          - [점포 이벤트 기능 설계 및 개발](github.com/pjok1122/resume/tree/master/project/2022/00.머천트맵_이벤트배너.md)
+          - 키워드 필터링 프로젝트 매니징
+          - 카테고리 확장 기능 개발
+
+      - layout: left
+        border: weak
+        title: LinePay Good Parnter
+        caption: 2021.03.21 ~ 2021.06.10
+        link: github.com/pjok1122/resume/tree/master/project/2021/04.대만_앱포스_출시.md
+        link_text: 상세 보기
+        quote: >
+          LinePay Good Partner 거래/정산 내역 관리 기능 개발
+        description: |
+          - 거래/정산내역 관리 기능 개발
+          - 거래내역 조회 성능 최적화
+          - 거래내역 마이그레이션
+          - 일간/월간 집계 기능 개발
+
   - title: Experience
     layout: list
     content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
+      - layout: left
+        title: Line Biz+
+        sub_title: 서버 개발자
+        caption: 2022.07.01 ~
+        link: https://pay.line.me/
         quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of role
+          가맹점, 혜택 시스템 개발 및 운영
+        description: |
+          - merchant-map 컴포넌트 개발 및 운영
+          - ad-delivery 컴포넌트 설계 및 개발
+          - LinePay Good Partner 앱 거래/정산 내역 관리 기능 개발
+          - Kuji(Hongbao) 서비스 운영
+          - benefit system 운영
+          - 인턴/신입 멘토
   - title: Education
     layout: list
     content:
-      - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+      - layout: left
+        title: 서울시립대학교
+        sub_title: 수학과
+        caption: 2012 ~ 2019
+        description: | 
+          - `수석` 졸업
+          - 컴퓨터 사이언스 전공 과목 `A+` 이수
+  - title: 기타 활동
+    layout: list
+    content:
+      - layout: left
+        title: 암호분석경진대회
+        caption: 2018.06 ~ 2018.09
+        link: https://github.com/pjok1122/cryptanalysis-contest-2018
+        link_text: 상세 보기
+        description: | 
+          - 모든 분야에서 최고점으로 `1등`하여 국방부장관상 수상
+          - 3명으로 구성된 팀의 `팀장`으로 활동.
+      - layout: left
+        title: 암호 공모전
+        sub_title: 문제풀이 분야
+        link: https://github.com/pjok1122/cryptanalysis-contest-2018
+        link_text: 상세 보기
+        caption: 2018.06 ~ 2018.09
+        description: | 
+          - 문제풀이 분야 `3등`으로 장려상 수상
+          - 3명으로 구성된 팀의 `팀장`으로 활동.
 
 # Footer
 footer_show_references: true
