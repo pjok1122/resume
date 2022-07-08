@@ -58,9 +58,10 @@ content:
           ad-delivery 서비스 설계 및 개발
         description: | 
           - 컴포넌트 아키텍쳐 설계
-          - 마케팅 상품 및 점포 정보 동기화 기능 설계 및 개발
-          - 마케팅 상품 조회 API 개발
-          - 성능 테스트
+          - `batch`를 이용한 마케팅 상품 동기화 설계 및 개발
+          - `kafka`를 이용한 점포 정보 동기화 설계 및 개발
+          - `webflux`를 이용한 마케팅 상품 조회 API 개발
+          - (TPS 얘기.) 성능 테스트
 
       - layout: left
         border: weak
