@@ -72,7 +72,8 @@ content:
         quote: >
           Line Pay Good Partner 앱에 마케팅 상품 판매 기능 추가
         description: |
-          - LinePay Good Partner 앱을 통해 마케팅 상품을 구매할 수 있도록 Proxy 기능 개발 
+          - LinePay Good Partner 앱을 통해 마케팅 상품을 구매할 수 있도록 `Proxy` 기능 개발
+          - 외주와 클라팀을 리드해, `10일`간 총 `24개`의 API 설계 및 개발
 
       - layout: left
         border: weak
