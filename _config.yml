@@ -105,12 +105,13 @@ content:
         link: github.com/pjok1122/resume/tree/master/project/2021/04.대만_앱포스_출시.md
         link_text: 상세 보기
         quote: >
-          일 주문 80만. LinePay Good Partner 앱. 거래/정산 내역 관리 기능 개발
+          일 거래 80만. LinePay Good Partner 앱. 거래/정산 내역 관리 기능 개발
         description: |
-          - 거래/정산내역 관리 기능 개발
-          - 거래내역 조회 성능 최적화
-          - 거래내역 마이그레이션
           - 일간/월간 집계 기능 개발
+          - 거래/정산내역 관리 기능 개발
+          - 일 거래 `80만` 데이터, 집계 테이블을 이용해 조회 성능 `10ms`로 최적화
+          - `batch timing issue`를 고려한 조회 API 설계
+          - `6억개` 거래내역 마이그레이션
 
   - title: Experience
     layout: list
@@ -118,7 +119,7 @@ content:
       - layout: left
         title: Line Biz+
         sub_title: 서버 개발자
-        caption: 2022.07.01 ~
+        caption: 2020.07.01 ~
         link: https://pay.line.me/
         quote: >
           가맹점, 혜택 시스템 개발 및 운영
