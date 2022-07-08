@@ -81,7 +81,7 @@ content:
         quote: >
           Merchant map 컴포넌트 개발 & 운영
         description: |
-          - [머천트맵 대만 이관](https://github.com/pjok1122/resume/tree/master/project/2022/05.머천트맵_대만이관.md)
+          - [머천트맵 서비스 대만으로 이관](https://github.com/pjok1122/resume/tree/master/project/2022/05.머천트맵_대만이관.md)
           - [핫플레이스 및 담당자 추천 배지 기능 설계 및 개발](https://github.com/pjok1122/resume/tree/master/project/2022/01.머천트맵_목록개편.md)
           - [점포 이벤트 기능 설계 및 개발](https://github.com/pjok1122/resume/tree/master/project/머천트맵_상세페이지개편.md)
           - [키워드 필터링 프로젝트 매니징](https://github.com/pjok1122/resume/tree/master/project/2021/11.머천트맵_키워드필터링.md)
@@ -108,7 +108,7 @@ content:
         quote: >
           일 거래 80만. LinePay Good Partner 앱. 거래/정산 내역 관리 기능 개발
         description: |
-          - 일간/월간 집계 기능 개발
+          - `idempotent`한 일간/월간 거래내역 집계 기능 개발
           - 거래/정산내역 관리 기능 개발
           - 일 거래 `80만` 데이터, 집계 테이블을 이용해 조회 성능 `10ms`로 최적화
           - `batch timing issue`를 고려한 조회 API 설계
@@ -125,11 +125,11 @@ content:
         quote: >
           가맹점, 혜택 시스템 개발 및 운영
         description: |
-          - merchant-map 컴포넌트 개발 및 운영
-          - ad-delivery 컴포넌트 설계 및 개발
-          - LinePay Good Partner 앱 거래/정산 내역 관리 기능 개발
-          - Kuji(Hongbao) 서비스 운영
-          - benefit system 운영
+          - `merchant-map` 컴포넌트 개발 및 운영
+          - `ad-delivery` 컴포넌트 설계 및 개발
+          - `LinePay Good Partner` 앱 거래/정산 내역 관리 기능 개발
+          - `Kuji(Hongbao)` 서비스 유지보수 및 운영
+          - `benefit` 서비스 유지보수 및 운영
           - [인턴/신입 멘토](https://github.com/pjok1122/resume/tree/master/project/매니징.md)
   - title: Education
     layout: list
