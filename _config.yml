@@ -61,7 +61,7 @@ content:
           - `batch`를 이용한 마케팅 상품 동기화 설계 및 개발
           - `kafka`를 이용한 점포 정보 동기화 설계 및 개발
           - `webflux`를 이용한 마케팅 상품 조회 API 개발
-          - 배포 전 `checklist` 작성
+          - 배포 전 [checklist](https://github.com/pjok1122/resume/tree/master/project/ad-delivery/checklist.md) 작성
           - 성능 테스트 진행 중..
 
       - layout: left
