@@ -1,3 +1,5 @@
+## 신규 서비스 런칭 전/후에 챙겨야할 포인트
+
 ### VM creation and application
 
 | checklist        | description                                                   |
@@ -8,6 +10,8 @@
 | API/Batch Server | <ul><li>[x] RC장비 생성</li><li>[x] REAL 장비 생성</li></ul>  |
 | Consumer Server  | <ul><li>[x] RC k8s 요청</li><li>[x] REAL k8s 요청</li></ul>   |
 
+<br><hr>
+
 ### ACL
 
 | checklist   | description                                             |
@@ -15,6 +19,7 @@
 | DB ACL      | <ul><li>[x] MongoDB ACL</li><li>[x] Mysql ACL</li></ul> |
 | network ACL | <ul><li>[x] 필요한지 전체 점검</li></ul>                |
 
+<br><hr>
 
 ### Security
 
@@ -26,6 +31,7 @@
 | log credential encryption            | <ul><li>[ ] NELO같은 로그 시스템에 Client secret 같은 credential info가 남지 않도록 처리.</li></ul> |
 | Save encrypted credential info to DB | <ul><li>[x] credential info를 DB에 저장할 때는 암호화된 값을 저장.</li></ul>                        |
 
+<br><hr>
 
 ### Infra
 
@@ -38,6 +44,8 @@
 | SSL 설정 확인        | <ul><li>[x] SSL 설정이 잘 되어있는지 확인. </li></ul>             |
 | Monitoring Tool 연동 | <ul><li>[x] Prometheus 설정 </li><li>[ ] DevOps에 요청 </li></ul> |
 
+<br><hr>
+
 ### Deployment
 
 | checklist          | description                                                                 |
@@ -47,6 +55,8 @@
 | 배포 시나리오 생성 | <ul><li>[x] health down/up 설정</li><li>[x] consumer down/up 설정</li></ul> |
 
 
+<br><hr>
+
 ### Failover
 
 | checklist        | description                                                      |
@@ -55,12 +65,17 @@
 | redis failover   | <ul><li>[x] Redis Topology 적용 (Beta 환경에서 테스트)</li></ul> |
 | mongodb failover | <ul><li>[x] Cluster 설정</li></ul>                               |
 
+
+<br><hr>
+
 ### Network isolation
 
 | checklist              | description                                                                                 |
 | ---------------------- | ------------------------------------------------------------------------------------------- |
 | outbound-gw 설정       | <ul><li>[x] Pay zone 밖으로 요청을 보낼 땐, outbound-gw를 통함.</li></ul>                   |
 | internal-corps-gw 설정 | <ul><li>[x] Pay zone 밖에서 Pay zone으로 요청을 보낼 때 internal-corps-gw를 통함.</li></ul> |
+
+<br><hr>
 
 ### Qaulity
 
@@ -69,6 +84,8 @@
 | Sonarqube & Jenkins 연동 | <ul><li>[x] </li></ul>                  |
 | Code Coverage            | <ul><li>[x] Coverage 90% 이상</li></ul> |
 | 정적 결함                | <ul><li>[x] 정적결함 Zero</li></ul>     |
+
+<br><hr>
 
 ### Service
 
@@ -82,6 +99,8 @@
 | Error Alert            | <ul><li>[ ] warn, error 로그에 대한 알람 설정</li></ul>  |
 | PagerDuty              | <ul><li>[ ] DevOps에 PagerDuty 연동 요청</li></ul>       |
 | Real QA support        | <ul><li>[x] 출시 전 Real QA를 위한 설정</li></ul>        |
+
+<br><hr>
 
 ### After deployment
 
